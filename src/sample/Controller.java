@@ -34,6 +34,8 @@ public class Controller {
 
         if(ourCheckBox.isSelected()) {
             nameField.clear();
+            btnHello.setDisable(true);
+            btnBye.setDisable(true);
         }
     }
 

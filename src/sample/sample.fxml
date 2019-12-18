@@ -19,4 +19,7 @@
 
     <CheckBox fx:id="ourCheckBox" GridPane.rowIndex="2" GridPane.columnIndex="0" GridPane.columnSpan="2"
               text="Cleat the field after saying hello or bye" onAction="#handleChanged"/>
+
+    <Label fx:id="ourLabel" GridPane.rowIndex="3" GridPane.columnIndex="0" text="Nothing has happened"/>
+
 </GridPane>
